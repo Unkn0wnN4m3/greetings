@@ -8,6 +8,6 @@ import "fmt"
 // Hello returns a greeting for the named person
 func Hello(name string) string {
   // Return a greeting tahat enbeds the name in a message
-  message := fmt.Sprintf("✋ Hi, $v. Welcome!", name)
+  message := fmt.Sprintf("✋ Hi, %v. Welcome!", name)
   return message
 }
