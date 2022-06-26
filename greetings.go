@@ -2,8 +2,13 @@ package greetings
 
 import "fmt"
 
-// In Go, a function whose name starts with a capital letter
-// can be called ba a function not in the same package
+/*
+
+This is par of "Get started" tutorial from go.dev
+
+Just call this function to you main code and print a nice greeting
+
+*/
 
 // Hello returns a greeting for the named person
 func Hello(name string) string {
@@ -11,3 +16,11 @@ func Hello(name string) string {
   message := fmt.Sprintf("✋ Hi, %v. Welcome!", name)
   return message
 }
+
+/*
+
+Note (for myself):
+In Go, a function whose name starts with a capital letter
+can be called ba a function not in the same package
+
+*/
